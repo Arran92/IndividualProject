@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import "Sensor.h"
+#import "AccelerometerViewController.h"
 
 @interface SIAccelerometerTests : XCTestCase
 
@@ -36,5 +38,7 @@
         // Put the code you want to measure the time of here.
     }];
 }
+
+
 
 @end

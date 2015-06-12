@@ -14,6 +14,14 @@
 		6640B0D61B21F71700F5A673 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6640B0D51B21F71700F5A673 /* Images.xcassets */; };
 		6640B0D91B21F71700F5A673 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6640B0D71B21F71700F5A673 /* LaunchScreen.xib */; };
 		6640B0E51B21F71700F5A673 /* SIAccelerometerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6640B0E41B21F71700F5A673 /* SIAccelerometerTests.m */; };
+		6640B0F01B21FBD400F5A673 /* TempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6640B0EF1B21FBD400F5A673 /* TempViewController.m */; };
+		6640B0F21B21FCA500F5A673 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6640B0F11B21FCA500F5A673 /* CoreBluetooth.framework */; };
+		6640B0F51B2201D500F5A673 /* AccelerometerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6640B0F41B2201D500F5A673 /* AccelerometerViewController.m */; };
+		6640B1691B25D2A000F5A673 /* Sensor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6640B1681B25D2A000F5A673 /* Sensor.m */; };
+		6640B1A41B272C7E00F5A673 /* GyroscopeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6640B1A31B272C7E00F5A673 /* GyroscopeViewController.m */; };
+		6640B1A61B28258C00F5A673 /* dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 6640B1A51B28258C00F5A673 /* dot.png */; };
+		6640B4071B298B2900F5A673 /* DotCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6640B4061B298B2900F5A673 /* DotCollectionViewController.m */; };
+		6640B40A1B298B5C00F5A673 /* DotCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6640B4091B298B5C00F5A673 /* DotCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,20 @@
 		6640B0DE1B21F71700F5A673 /* SIAccelerometerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SIAccelerometerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6640B0E31B21F71700F5A673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6640B0E41B21F71700F5A673 /* SIAccelerometerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIAccelerometerTests.m; sourceTree = "<group>"; };
+		6640B0EE1B21FBD400F5A673 /* TempViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempViewController.h; sourceTree = "<group>"; };
+		6640B0EF1B21FBD400F5A673 /* TempViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempViewController.m; sourceTree = "<group>"; };
+		6640B0F11B21FCA500F5A673 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		6640B0F31B2201D500F5A673 /* AccelerometerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerometerViewController.h; sourceTree = "<group>"; };
+		6640B0F41B2201D500F5A673 /* AccelerometerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerometerViewController.m; sourceTree = "<group>"; };
+		6640B1671B25D2A000F5A673 /* Sensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sensor.h; sourceTree = "<group>"; };
+		6640B1681B25D2A000F5A673 /* Sensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sensor.m; sourceTree = "<group>"; };
+		6640B1A21B272C7E00F5A673 /* GyroscopeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GyroscopeViewController.h; sourceTree = "<group>"; };
+		6640B1A31B272C7E00F5A673 /* GyroscopeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GyroscopeViewController.m; sourceTree = "<group>"; };
+		6640B1A51B28258C00F5A673 /* dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dot.png; sourceTree = "<group>"; };
+		6640B4051B298B2900F5A673 /* DotCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DotCollectionViewController.h; sourceTree = "<group>"; };
+		6640B4061B298B2900F5A673 /* DotCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DotCollectionViewController.m; sourceTree = "<group>"; };
+		6640B4081B298B5C00F5A673 /* DotCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DotCollectionViewCell.h; sourceTree = "<group>"; };
+		6640B4091B298B5C00F5A673 /* DotCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DotCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6640B0F21B21FCA500F5A673 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 		6640B0BC1B21F71600F5A673 = {
 			isa = PBXGroup;
 			children = (
+				6640B0F11B21FCA500F5A673 /* CoreBluetooth.framework */,
 				6640B0C71B21F71700F5A673 /* SIAccelerometer */,
 				6640B0E11B21F71700F5A673 /* SIAccelerometerTests */,
 				6640B0C61B21F71700F5A673 /* Products */,
@@ -83,12 +107,25 @@
 			children = (
 				6640B0CC1B21F71700F5A673 /* AppDelegate.h */,
 				6640B0CD1B21F71700F5A673 /* AppDelegate.m */,
+				6640B1A51B28258C00F5A673 /* dot.png */,
 				6640B0CF1B21F71700F5A673 /* ViewController.h */,
 				6640B0D01B21F71700F5A673 /* ViewController.m */,
+				6640B1A21B272C7E00F5A673 /* GyroscopeViewController.h */,
+				6640B1A31B272C7E00F5A673 /* GyroscopeViewController.m */,
+				6640B1671B25D2A000F5A673 /* Sensor.h */,
+				6640B1681B25D2A000F5A673 /* Sensor.m */,
 				6640B0D21B21F71700F5A673 /* Main.storyboard */,
+				6640B4081B298B5C00F5A673 /* DotCollectionViewCell.h */,
+				6640B4091B298B5C00F5A673 /* DotCollectionViewCell.m */,
+				6640B4051B298B2900F5A673 /* DotCollectionViewController.h */,
+				6640B4061B298B2900F5A673 /* DotCollectionViewController.m */,
+				6640B0F31B2201D500F5A673 /* AccelerometerViewController.h */,
+				6640B0F41B2201D500F5A673 /* AccelerometerViewController.m */,
 				6640B0D51B21F71700F5A673 /* Images.xcassets */,
 				6640B0D71B21F71700F5A673 /* LaunchScreen.xib */,
 				6640B0C81B21F71700F5A673 /* Supporting Files */,
+				6640B0EE1B21FBD400F5A673 /* TempViewController.h */,
+				6640B0EF1B21FBD400F5A673 /* TempViewController.m */,
 			);
 			path = SIAccelerometer;
 			sourceTree = "<group>";
@@ -200,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6640B0D41B21F71700F5A673 /* Main.storyboard in Resources */,
+				6640B1A61B28258C00F5A673 /* dot.png in Resources */,
 				6640B0D91B21F71700F5A673 /* LaunchScreen.xib in Resources */,
 				6640B0D61B21F71700F5A673 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +257,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6640B0F01B21FBD400F5A673 /* TempViewController.m in Sources */,
 				6640B0D11B21F71700F5A673 /* ViewController.m in Sources */,
+				6640B4071B298B2900F5A673 /* DotCollectionViewController.m in Sources */,
 				6640B0CE1B21F71700F5A673 /* AppDelegate.m in Sources */,
+				6640B0F51B2201D500F5A673 /* AccelerometerViewController.m in Sources */,
 				6640B0CB1B21F71700F5A673 /* main.m in Sources */,
+				6640B1691B25D2A000F5A673 /* Sensor.m in Sources */,
+				6640B1A41B272C7E00F5A673 /* GyroscopeViewController.m in Sources */,
+				6640B40A1B298B5C00F5A673 /* DotCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +392,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SIAccelerometer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +403,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SIAccelerometer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +462,7 @@
 				6640B0EA1B21F71700F5A673 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6640B0EB1B21F71700F5A673 /* Build configuration list for PBXNativeTarget "SIAccelerometerTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +471,7 @@
 				6640B0ED1B21F71700F5A673 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
