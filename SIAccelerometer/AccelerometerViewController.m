@@ -19,6 +19,7 @@ NSString *accPeriod = @"F000AA13-0451-4000-B000-000000000000";
 NSString *keysService = @"FFE0";
 NSString *keysPressState = @"FFE1";
 
+//added some comments for the git push
 @interface AccelerometerViewController () {
     
     int buttonCount;
